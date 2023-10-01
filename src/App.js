@@ -189,7 +189,7 @@ function App() {
       <button onClick={() => dispatch({ type: ACTIONS.CHOOSE_OPERATION, payload: { operation: '÷' } })}>÷</button>
 
       <button onClick={() => dispatch({ type: ACTIONS.CLEAR })} className="span-two">AC</button>
-      <button onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}>DEL</button>
+      <button onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}>DEL.</button>
     </div>
   );
 }
